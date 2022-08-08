@@ -1,0 +1,28 @@
+.controls {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	margin: auto;
+}
+
+.controls__container {
+	flex: 6;
+	margin-right: 20px;
+	flex-shrink: 0;
+}
+
+.controls__btn {
+	flex: 1;
+	padding: 15px 25px;
+	font-size: 16px;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	background: #595dff;
+	text-transform: uppercase;
+	outline: none;
+	margin: 30px 0;
+}

@@ -1,0 +1,43 @@
+.card {
+	width: 160px;
+	height: 160px;
+	display: flex;
+	flex-direction: column;
+	font-family: Montserrat;
+	letter-spacing: 0.0625em;
+	justify-content: space-around;
+	align-items: center;
+	margin: 2px;
+	border-radius: 5px;
+	font-size: 22px;
+	padding: 30px;
+	box-sizing: border-box;
+	font-weight: 100;
+	color: rgb(239, 239, 239);
+}
+
+.card__copy {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	min-width: 2vw;
+	max-height: 2vw;
+	min-height: 2vw;
+	border-radius: 100%;
+	background: rgba(74, 77, 251, 0.1);
+	text-align: center;
+	color: #fff;
+	margin: 10px;
+}
+
+.card__copy i {
+	cursor: pointer;
+	font-size: 28px;
+	color: white;
+}
+
+.copy__tooltip-copied {
+	background-color: #21bf73 !important;
+	color: #fff;
+}

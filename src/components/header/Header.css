@@ -1,0 +1,21 @@
+.header {
+	font-size: 2.2rem;
+	font-weight: 100;
+	color: black;
+	text-align: center;
+	margin: auto;
+	font-family: Aldrich;
+}
+
+.header__title {
+	font-size: 3.4rem;
+	margin: 20px 0px 0px;
+	font-weight: 500;
+}
+
+.header__subtitle {
+	font-size: 2.25rem;
+	margin: 0px 0px 30px;
+	font-weight: 300;
+	font-family: Roboto;
+}
